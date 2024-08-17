@@ -10,8 +10,8 @@ from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, Dropou
 from tensorflow.keras.optimizers import Adam
 from sklearn.metrics import accuracy_score
 
-test = pd.read_csv(r"C:\Users\user1\Downloads\archive\sign_mnist_test.csv")
-train = pd.read_csv(r"C:\Users\user1\Downloads\archive\sign_mnist_train.csv")
+test = pd.read_csv(r"sign_mnist_test.csv")
+train = pd.read_csv(r"sign_mnist_train.csv")
 
 train.head()
 
